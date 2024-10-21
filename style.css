@@ -1,1 +1,18 @@
-select
+.extra {display: none;}
+p {display: inline;}
+input[type="checkbox"] {
+    height: 2em;
+    display:block ;
+    appearance: none;
+}
+label {
+    position: relative;
+    padding: 1em;
+    background-color: cyan;
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+label::before {
+    content: Leer más;
+}
+input[type="checkbox"]
